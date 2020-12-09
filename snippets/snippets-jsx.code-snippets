@@ -1,0 +1,38 @@
+{
+	"useState hook": {
+		"scope": "javascriptreact",
+		"prefix": "state",
+		"body": [
+			"[$1, set$2] = useState();"
+		],
+		"description": "Creates a useState hook structure"
+	},
+	"useEffect hook": {
+		"scope": "javascriptreact",
+		"prefix": "effect",
+		"body": [
+			"useEffect(() => {",
+			"\t$1",
+			"}, []);"
+		],
+		"description": "Creates a useEffect hook structure"
+	},
+	"useCallback hook": {
+		"scope": "javascriptreact",
+		"prefix": "callback",
+		"body": [
+			"const $1 = useCallback(() => {",
+			"\t$2",
+			"}, []);"
+		],
+		"description": "Creates a useCallback hook structure"
+	},
+	"useMemo hook": {
+		"scope": "javascriptreact",
+		"prefix": "memo",
+		"body": [
+			"const $1 = useMemo(() => $2, []);"
+		],
+		"description": "Creates a useCallback hook structure"
+	}
+}

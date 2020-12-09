@@ -1,0 +1,33 @@
+{
+    "name": "react-hooks-snippets",
+    "displayName": "React Hooks Snippets",
+    "description": "Snippets to create the structure of the main React hooks more quickly.",
+    "publisher": "allyfx",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets-js.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets-ts.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets-jsx.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets-tsx.code-snippets"
+            }
+        ]
+    }
+}
