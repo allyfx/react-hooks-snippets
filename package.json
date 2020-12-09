@@ -4,6 +4,7 @@
     "description": "Snippets to create the structure of the main React hooks more quickly.",
     "publisher": "allyfx",
     "version": "0.0.1",
+    "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.51.0"
     },
