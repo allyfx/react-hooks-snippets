@@ -3,7 +3,7 @@
 		"scope": "javascriptreact",
 		"prefix": "state",
 		"body": [
-			"[$1, set$2] = useState();"
+			"const [$1, set$2] = useState();"
 		],
 		"description": "Creates a useState hook structure"
 	},
