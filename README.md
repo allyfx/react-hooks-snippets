@@ -15,8 +15,9 @@ Some simple snippets to streamline when programming, thus creating structures th
 |                 `state` -> | Creates a useState hook structure                                             |
 |                `effect` -> | Creates a useEffect hook structure                                            |
 |              `callback` -> | Creates a useCallback hook structure                                          |
+|                  `memo` -> | Creates a useMemo hook structure                                              |
 |                  `sref` -> | Creates a useRef hook structure                                               |
-|                  `ctx` ->  | Creates a useContext hook structure                                           |
+|                   `ctx` -> | Creates a useContext hook structure                                           |
 
 ### How to contribute
 
