@@ -34,5 +34,21 @@
 			"const $1 = useMemo(() => $2, []);"
 		],
 		"description": "Creates a useCallback hook structure"
+	},
+  "useRef hook": {
+		"scope": "javascript",
+		"prefix": "sref",
+		"body": [
+			"const $1 = useRef(null);"
+		],
+		"description": "Creates a useRef hook structure"
+	},
+  "useContext hook": {
+		"scope": "javascript",
+		"prefix": "ctx",
+		"body": [
+			"const $1 = useContext($2);"
+		],
+		"description": "Creates a useContext hook structure"
 	}
 }

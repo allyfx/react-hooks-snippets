@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/reacthooks_logo.png" />
+  <img src="./images/reacthooks_logo.png" />
 </p>
 <p align="center">
   Snippets to create the structure of the main React Hooks more quickly.
@@ -15,7 +15,8 @@ Some simple snippets to streamline when programming, thus creating structures th
 |                 `state` -> | Creates a useState hook structure                                             |
 |                `effect` -> | Creates a useEffect hook structure                                            |
 |              `callback` -> | Creates a useCallback hook structure                                          |
-|                  `memo` -> | Creates a useMemo hook structure                                              |
+|                  `sref` -> | Creates a useRef hook structure                                               |
+|                  `ctx` ->  | Creates a useContext hook structure                                           |
 
 ### How to contribute
 
